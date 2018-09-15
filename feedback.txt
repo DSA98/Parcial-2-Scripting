@@ -1,0 +1,15 @@
+Feedback
+
+Examen (3.0/5/5.0)
+ * APBullet tiene un comportamiento errático. No siempre destruye los hazards.
+ * Invader no rota al morir.
+ * Cuando un Debris pasa de la posición del jugador, no hay GameOver. Esto no parece ocurrir con los otros hazards.
+ * Los shelters no reciben daño cuando los impacta un hazard.
+ * Los hazards no se destruyen cuando impactan con un shelter
+ * La lógica de regenerar se está evaluando Y llamando cada cuadro, con retrasos de 2Segs (y el atributo que se definió?). Esto hace que,
+ si el juego corre a 60FPS y en un cuadro regenerating = true, se van a invocar 60x esa función. Se hace imposible de probar.
+
+Bonificación (0.0/0.5)
+ * No hay propuesta para la bonificación
+
+Total: 3.0 /5.0
